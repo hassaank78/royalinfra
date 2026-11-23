@@ -1,14 +1,14 @@
-# Royal Infra Scrap
+# Royal World Scraps
 
-This is a static HTML, CSS, and JavaScript website. The homepage and site assets are in the repository root. No Node server, build step, or separately hosted backend is needed.
+This is a static HTML, CSS, and JavaScript website. Its pages and site assets are in the repository root. No Node server or build step is needed.
 
 ## Preview on GitHub Pages
 
-Open **Settings → Pages**, choose **GitHub Actions** as the source, and save. The workflow copies the root `index.html` and required assets into a clean publishing folder and deploys them at:
+Open **Settings → Pages**, choose **GitHub Actions** as the source, and save. The workflow publishes the home page, services page, AC scrap catalog, sell scrap page, contact page, and the sitemap at:
 
 https://hassaank78.github.io/royalinfra/
 
-No custom domain is configured in the repository. The deployment workflow is triggered by pushes to `main`.
+No custom domain is configured in the repository. The deployment workflow is triggered by pushes to `main`. The pages are linked through the shared navigation and listed in `sitemap.xml` for crawling.
 
 ## Enquiry form
 

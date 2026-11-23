@@ -1,5 +1,5 @@
 /**
- * ROYAL INFRA SCRAP – CLIENT JAVASCRIPT
+ * ROYAL WORLD SCRAPS – CLIENT JAVASCRIPT
  * Handles mobile navigation, dynamic "Show More" toggles, Indian mobile validation,
  * asynchronous enquiry submission.
  */
@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
       } else {
         showMoreCategoriesBtn.innerHTML = `
-          <span>Show All 12 AC Categories (8 More)</span>
+          <span>Show All 10 AC Types & Services (6 More)</span>
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>
         `;
         const whatWeBuySection = document.getElementById('what-we-buy');
@@ -185,7 +185,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // 3. Validate Consent Checkbox
       if (!consentInput.checked) {
-        consentError.textContent = 'You must agree to be contacted by Royal Infra Scrap.';
+        consentError.textContent = 'You must agree to be contacted by Royal World Scraps.';
         consentError.classList.add('visible');
         hasError = true;
       } else {

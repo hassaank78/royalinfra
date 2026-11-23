@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hassaank78.github.io/royalinfra/sitemap.xml
