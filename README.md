@@ -6,9 +6,9 @@ This is a static HTML, CSS, and JavaScript website. Its pages and site assets ar
 
 Open **Settings → Pages**, choose **GitHub Actions** as the source, and save. The workflow publishes the home page, services page, AC scrap catalog, sell scrap page, contact page, and the sitemap at:
 
-https://hassaank78.github.io/royalinfra/
+GitHub Pages preview: https://hassaank78.github.io/royalinfra/
 
-No custom domain is configured in the repository. The deployment workflow is triggered by pushes to `main`. The pages are linked through the shared navigation and listed in `sitemap.xml` for crawling.
+The production domain is `https://royal-world.in/`. Add it under **Settings → Pages → Custom domain**, then configure the apex DNS records with your domain provider and enable HTTPS. The Actions workflow deploys on pushes to `main`; a `CNAME` file is not required for this workflow.
 
 ## Enquiry form
 
